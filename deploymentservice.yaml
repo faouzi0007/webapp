@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: webapp
-          image: faouzi0007/webapp:tagVersion # Image that will be used to containers in the cluster
+          image: faouzi0007/webapp:latest # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9001 # The port that the container is running on in the cluster
