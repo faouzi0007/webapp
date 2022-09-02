@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: webapp
-          image: faouzi0007/webapp:24
+          image: faouzi0007/webapp:25
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9001 # The port that the container is running on in the cluster
